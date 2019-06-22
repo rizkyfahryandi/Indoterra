@@ -1,0 +1,149 @@
+* {margin: 0; padding: 0;}
+body {
+	width: 900px;
+	margin: auto;
+}
+
+header {
+	width: 900px;
+	height: 250px;
+}
+header img {
+	width: 900px;
+	height: 250px;
+}/*akhir header*/
+
+menu {
+	width: 880px;
+	height: 30px;
+	background-color: #0077ff;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+menu li {
+	list-style: none;
+	float: left;
+	margin-right: 20px; 
+	margin-top: 5px;
+	color: #fff;
+}
+menu li a {
+	text-decoration: none;
+	color: #fff;
+}
+menu li a:hover {
+	color: orange;
+}
+
+
+/*class kucing */
+.Kucing {
+	width: 100%;
+	overflow: hidden;
+	background-color: white;
+	margin-top: 5px;
+}
+
+/* class widget*/
+.Kucing .widget {
+	width: 240px;
+	float: left;
+	background-color: white;
+	border: solid 2px;
+}
+
+/*awal class widget artikel terlaris*/
+.Kucing .widget .ArtikelTerlaris{
+	margin: 0px 5px;
+}
+.Kucing .widget .ArtikelTerlaris img {
+	width: 100px;
+	height: 80px;
+	float: center;
+	margin-right: 2.5px;
+	margin-left: 60px;
+	margin-top: 10px;
+}
+.Kucing .widget .ArtikelTerlaris h2 {
+	text-align: center;
+	margin: 10px 10px 10px;
+}
+.Kucing .widget .ArtikelTerlaris h4{
+	text-align: center;
+}
+.Kucing .widget .ArtikelTerlaris a{
+	text-decoration: none;
+	color: #000;
+}
+/* akhir class widget artikel terlaris */
+
+/*class artikel terbaru */
+.Kucing .ArtikelTerbaru {
+	width: 650px;
+	background-color: white;
+	float: left;
+	margin-left: 5px;
+}
+.Kucing .ArtikelTerbaru img {
+	width: 550px;
+	margin: 5px 50px 0px;
+}
+.Kucing .ArtikelTerbaru h2 {
+	margin-left: 5px;
+}
+.Kucing .ArtikelTerbaru p{
+	margin: 0px 5px;
+	text-align: justify;
+}
+.Kucing .ArtikelTerbaru a {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+.Kucing .ArtikelTerbaru a:hover {
+	color: orange;
+}
+/*akhir class artikel terbaru*/
+
+
+/*class widget media sosial */
+.Kucing .widget .MediaSosial{
+	margin: 5px 5px;
+	border-top: 2px solid #333;
+}
+.Kucing .widget .MediaSosial h3 {
+	text-align: center;
+	margin: 10px 0px 10px;
+}
+.Kucing .widget .MediaSosial img {
+	width: 45px;
+	height: 30px;
+	margin-left: 50px;
+}
+.Kucing .widget .MediaSosial img:hover {
+	opacity: 0.5;
+}
+/* akhir class widget media sosial */
+
+/* footer */
+.footer {
+	width: 100%;
+	height: 50px;
+	background-color: blue;
+	margin-top: 10px;
+	position: relative;
+}
+.footer p {
+	color: #fff;
+	position: absolute;
+	bottom: 10px;
+	left: 350px;
+}
+.footer a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer a:hover {
+	color: #f90;
+}
